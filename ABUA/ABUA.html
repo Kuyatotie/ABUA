@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en " > 
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./images/Profile.png" type="images/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>ABUA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+<!----HEADER-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="" class="navbar-brand">
+           <img src="./images/Profile.png" alt="">
+            <span class="text-warning">EMERSON
+
+            </span>ABUA</a>
+    
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubtn">
+            <span class="navbar-toggler-icon"></span>                   
+        </button>
+    
+      
+        <div class="collapse navbar-collapse" id="menubtn">
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item"  >
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ABOUT" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+               
+    
+            </ul>
+            
+            </div>
+            
+            
+        </div>
+               
+    </nav>
+<!---HEADER SECTION END-->
+<!--HOMESECTION-->
+<section id="home" class="bg-light text-dark p-5 text-center text-sm-start p">
+    <div class="container">
+      <div class="d-sm-flex align-items-center">
+        <div>
+            <h1>COMPUTER <span class="text-warning">SCIENCE </span>  STUDENT</h1>
+            <p class="lead my-4 ">
+                I am a dedicated computer science student with a passion for unraveling the complexities of technology. Currently immersed in a world of algorithms, data structures, and programming languages, I find joy in the elegant solutions that code can offer. From problem-solving to software development, my journey in computer science is a continuous exploration of innovation and creativity. I thrive on the challenges that each coding project presents, eager to contribute my skills to the ever-evolving landscape of technology.            </p>
+          <a href="https://www.facebook.com/profile.php?id=100006627978948" target="_">  <button type="button" class="btn btn-primary btn-lg">MESSAGE ME NOW</button></a>
+        </div>
+        <img class="img-fluid w-50 " src="./images/bg.png" alt="">
+      </div>
+    </div>
+
+       <section id="ABOUT" class="bg-light text-dark ">
+    <div class="container">
+        
+            <div id="row">
+                <div class="about-col-2">
+                  
+                    <h1><span class="text-danger">ABOUT</span> ME</h1>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('HOBBIES')">HOBBIES</p>
+                        <p class="tab-links"  onclick="opentab('EDUCATION')">EDUCATION</p>
+                      
+                       
+                    </div>
+                    <div class="tab-contents active-tab  " id="HOBBIES">
+                        <ul>
+                            <li><span class="text-danger">CYVLING</span></li>
+                            <li><span class="text-danger"> CALESTETICS</span></li>
+                            <li><span class="text-danger">GAMING </span></li>
+                            
+                           
+                        </ul>
+                       
+                    </div>
+                    <div class="tab-contents " id="EDUCATION">
+                        <ul>
+                            <li><span class="text-danger">ELEMENTARY</span>  LITTLE SHEPERD INTERGRATED  MONTESORY  </li>
+                            <li><span class="text-danger"> JUNIOR HIGHSCHOOL  </span>LITTLE SHEPERD BUSSINESS AND SCIENCE HIGH SCHOOL </li>
+                            <li><span class="text-danger">SENIOR HIGHSCHOOL</span> LITTLE SHEPERD BUSSINESS AND SCIENCE HIGH SCHOOL</li>
+                            <li><span class="text-danger">COLLEGES</span> ASIAN INSTITUTE OF COMPUTER STUDIES <span class="text-bg-info">  AICS</span> </li>
+                           
+                        </ul>
+                       
+                    </div>
+                </div>
+                <div class="about-col-1">
+                    <img class="img-fluid w-50"  src="./images/Profile.png" alt="">
+                </div>
+                </div>
+               
+              
+            </div>
+        
+
+    
+
+ 
+  
+</section>
+
+</section>
+
+
+<!---HOMEE SECTION-->
+
+
+
+<!---ABOUT-->
+
+
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script >
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablinks of tablinks){
+    tablinks.classList.remove("active-link");
+}
+for (tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+
+}
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+   
